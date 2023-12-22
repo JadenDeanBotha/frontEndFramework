@@ -50,3 +50,27 @@
     right: 0;
     background-color: rgba(244, 244, 244, 0.79);
 }
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: #f97300;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #f97300;
+    background-color: #F97300;
+    color: #fff;
+}
