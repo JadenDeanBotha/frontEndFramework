@@ -59,7 +59,7 @@
 }
 
 .description h1 {
-    color: #f97300;
+    color: #007bff;
 }
 
 .description p {
@@ -70,7 +70,7 @@
 }
 
 .description button {
-    border: 1px solid #f97300;
-    background-color: #F97300;
+    border: 1px solid #007bff;
+    background-color: #007bff;
     color: #fff;
 }
