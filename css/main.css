@@ -1,3 +1,10 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a {
+    font-family: "Raleway";
+}
+
 /* Navbar */
 .navbar {
     background-color: #F97300;
@@ -190,4 +197,30 @@
     padding: 5em;
     top: 0;
     border-bottom-left-radius: 0;
+}
+
+/* Contact Form */
+.contact-form {
+    margin: 6em 0;
+    position: relative;
+}
+
+.contact-form h1 {
+    padding: 2em 1px;
+    color: #007bff;
+}
+
+.contact-form .right {
+    max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+    border: 0;
+}
+
+.contact-form .right .form-control::placeholder {
+    color: #888;
+    font-size: 16px;
 }
